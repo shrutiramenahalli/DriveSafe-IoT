@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="823dp"
+        android:contentDescription="@string/drive_safe"
+        android:scaleType="centerCrop"
+        android:src="@drawable/drivesafe" />
+
+    <TextView
+        android:id="@+id/tv_mainscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/we_re_here_to_ensure_that_you"
+        android:textAlignment="textStart"
+        android:textColor="#3F51B5"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>

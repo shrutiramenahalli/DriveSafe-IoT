@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfileActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingTop="30dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/new_login_gradients">
+
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:contentDescription="@string/my_profile"
+            app:srcCompat="@drawable/avatar1" />
+
+        <TextView
+            android:id="@+id/FullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/Age"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textAlignment="center"-->
+<!--            android:fontFamily="@font/carrois_gothic_sc"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Vehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TagId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+             />
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="30dp"
+        android:layout_marginTop="40dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/Contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Contact"
+            android:layout_centerHorizontal="true"
+            android:linksClickable="true"
+            android:text="@string/contact_email"
+            android:textColor="#0E27AF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
+
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/add_amount"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:ems="10"-->
+        <!--            android:hint="@string/enter_amount"-->
+        <!--            android:inputType="number"-->
+        <!--            android:paddingTop="50dp"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/purple_700" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/button"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="90dp"-->
+        <!--            android:background="@drawable/background_login"-->
+        <!--            android:text="@string/add_money"-->
+        <!--            android:textSize="22sp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:iconPadding="40dp" />-->

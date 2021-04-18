@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DriveSafe</string>
+    <string name="title_activity_main">Welcome to Drive Safe</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_login">Drive Safe Login</string>
+    <string name="title_activity_register">Drive Safe Registration</string>
+    <string name="email">Email</string>
+    <string name="new_user_register">New User? Register!</string>
+    <string name="user_profile">User Profile</string>
+    <string name="drive_safe">Drive Safe</string>
+    <string name="we_re_here_to_ensure_that_you">We are here to ensure that you</string>
+    <string name="register">Register</string>
+    <string name="phone_number">Phone number</string>
+    <string name="gmail">Gmail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="vehicleid">Vehicle Id</string>
+    <string name="contact">"Facing any trouble with the app? Contact us at: </string>
+    <string name="contact_email">drivesafe_iot@gmail.com</string>
+    <string name="licenseid">License Id</string>
+    <string name="my_profile">My Profile</string>
+    <string name="wallet_info">Wallet Info</string>
+    <string name="alcohol_info">Alcohol Info</string>
+    <string name="my_wallet">My Transactions</string>
+    <string name="add_money">Add Money</string>
+    <string name="enter_amount">Enter Topup Amount</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome!</string>
+
+</resources>

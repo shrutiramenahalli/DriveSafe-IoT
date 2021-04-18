@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background_login"
+tools:context=".UserHomeActivity">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_margin="20dp"
+    android:columnCount="2"
+    android:rowCount="3">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/my_profile"
+                app:srcCompat="@drawable/myprofile" />
+
+            <TextView
+                android:id="@+id/myprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_profile"
+                android:textColor="#3F51B5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/my_wallet"
+                app:srcCompat="@drawable/mywallet" />
+
+            <TextView
+                android:id="@+id/mywallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_wallet"
+                android:textColor="#3F51B5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/wallet_info"
+                app:srcCompat="@drawable/addmoney" />
+
+            <TextView
+                android:id="@+id/mybalances"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet_info"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/alcohol_info"
+                app:srcCompat="@drawable/alcohol" />
+
+            <TextView
+                android:id="@+id/alcoholdashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alcohol_info"
+                android:textColor="#3F51B5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/logout"
+                app:srcCompat="@drawable/logout" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                android:textColor="#3F51B5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</GridLayout>
+
+</RelativeLayout>

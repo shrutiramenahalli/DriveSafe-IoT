@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_login">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profile"
+        android:layout_marginTop="10dp"
+        tools:item="1">
+    </ListView>
+</LinearLayout>
+
+<!--        <Button-->
+<!--            android:id="@+id/AddMoney"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/background_login"-->
+<!--            android:insetBottom="20dp"-->
+<!--            android:text="Add money"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:background="@color/background"-->
+<!--        android:paddingTop="10dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/Transactions"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="sans-serif-condensed"-->
+<!--            android:letterSpacing="0.02"-->
+<!--            android:text="Transactions"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/view_all"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="25dp"-->
+
+<!--            android:gravity="end"-->
+<!--            android:text="View All"-->
+<!--            android:textColor="#d09d88bd"-->
+<!--            android:textSize="23dp" />-->
+<!--    </LinearLayout>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/RecyclerView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:padding="4dp"-->
+
+<!--        android:scrollbars="vertical"/>-->
